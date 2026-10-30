@@ -1,0 +1,285 @@
+{
+  "recordedAt": "2026-10-30T07:31:12.705Z",
+  "environment": {
+    "node": "v24.16.0",
+    "next": "16.4.3",
+    "react": "19.2.0",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "osRelease": "25.5.0"
+  },
+  "results": [
+    {
+      "bundler": "webpack",
+      "honorsCacheableFalse": true,
+      "phases": [
+        {
+          "label": "initial",
+          "value": {
+            "trigger": "trigger-0",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 1,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "hidden-input-only",
+          "value": {
+            "trigger": "trigger-0",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 1,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "unrelated-edit-1",
+          "value": {
+            "trigger": "trigger-1",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v3"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 2,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "unrelated-edit-2",
+          "value": {
+            "trigger": "trigger-2",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v4"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 3,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "direct-source-edit",
+          "value": {
+            "trigger": "trigger-2",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v2",
+              "external": "external-v5"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v2",
+              "external": "external-v5"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v2",
+              "external": "external-v5"
+            }
+          },
+          "calls": {
+            "no-cache": 4,
+            "cacheable": 2,
+            "default": 2
+          }
+        }
+      ]
+    },
+    {
+      "bundler": "turbopack",
+      "honorsCacheableFalse": false,
+      "phases": [
+        {
+          "label": "initial",
+          "value": {
+            "trigger": "trigger-0",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 1,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "hidden-input-only",
+          "value": {
+            "trigger": "trigger-0",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 1,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "unrelated-edit-1",
+          "value": {
+            "trigger": "trigger-1",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 1,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "unrelated-edit-2",
+          "value": {
+            "trigger": "trigger-2",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v1",
+              "external": "external-v1"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v1",
+              "external": "external-v1"
+            }
+          },
+          "calls": {
+            "no-cache": 1,
+            "cacheable": 1,
+            "default": 1
+          }
+        },
+        {
+          "label": "direct-source-edit",
+          "value": {
+            "trigger": "trigger-2",
+            "noCache": {
+              "name": "no-cache",
+              "source": "source-v2",
+              "external": "external-v5"
+            },
+            "cacheable": {
+              "name": "cacheable",
+              "source": "source-v2",
+              "external": "external-v5"
+            },
+            "defaultCache": {
+              "name": "default",
+              "source": "source-v2",
+              "external": "external-v5"
+            }
+          },
+          "calls": {
+            "no-cache": 3,
+            "cacheable": 3,
+            "default": 3
+          }
+        }
+      ]
+    }
+  ]
+}

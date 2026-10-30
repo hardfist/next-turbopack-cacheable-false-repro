@@ -1,0 +1,22 @@
+▲ Next.js 16.5.0-canary.32 (Turbopack)
+- Local:         http://127.0.0.1:51879
+- Network:       http://127.0.0.1:51879
+✓ Ready in 230ms
+✓ Running next.config.js took 21ms
+- Experiments (use with caution):
+  ⨯ agentUpgrade
+
+ GET /api/probe 200 in 24ms (next.js: 17ms, application-code: 7ms)
+ GET /api/probe 200 in 2ms (next.js: 1.4ms, application-code: 1.1ms)
+ GET /api/probe 200 in 1.0ms (next.js: 0.2ms, application-code: 0.8ms)
+ GET /api/probe 200 in 0.9ms (next.js: 0.2ms, application-code: 0.7ms)
+ GET /api/probe 200 in 0.7ms (next.js: 0.1ms, application-code: 0.6ms)
+ GET /api/probe 200 in 7ms (next.js: 5ms, application-code: 1.7ms)
+ GET /api/probe 200 in 4ms (next.js: 1.2ms, application-code: 3ms)
+ GET /api/probe 200 in 1.6ms (next.js: 0.3ms, application-code: 1.3ms)
+ GET /api/probe 200 in 8ms (next.js: 6ms, application-code: 2ms)
+ GET /api/probe 200 in 8ms (next.js: 1.0ms, application-code: 7ms)
+ GET /api/probe 200 in 3ms (next.js: 0.4ms, application-code: 2ms)
+ GET /api/probe 200 in 4ms (next.js: 3ms, application-code: 0.8ms)
+ GET /api/probe 200 in 3ms (next.js: 0.4ms, application-code: 2ms)
+[?25h

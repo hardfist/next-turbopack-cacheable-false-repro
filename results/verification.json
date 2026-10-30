@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "checks": [
+    {
+      "next": "16.4.3",
+      "command": "npm ci && npm run repro",
+      "exitCode": 0,
+      "webpackHonorsCacheableFalse": true,
+      "turbopackHonorsCacheableFalse": false,
+      "report": "16.4.3/report.json"
+    },
+    {
+      "next": "16.5.0-canary.32",
+      "command": "npm install --no-save --package-lock=false next@16.5.0-canary.32 && npm run repro",
+      "exitCode": 0,
+      "webpackHonorsCacheableFalse": true,
+      "turbopackHonorsCacheableFalse": false
+    },
+    {
+      "next": "16.5.0-canary.32",
+      "command": "npm run test:contract",
+      "exitCode": 1,
+      "expectedFailure": true,
+      "assertion": "cacheable(false) was not honored; see the saved report",
+      "report": "16.5.0-canary.32/report.json"
+    }
+  ],
+  "scope": "next dev, Pages Router API route, two unrelated module edits and a direct-source-edit control"
+}

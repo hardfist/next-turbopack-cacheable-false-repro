@@ -1,0 +1,22 @@
+▲ Next.js 16.4.3 (webpack)
+- Local:         http://127.0.0.1:51930
+- Network:       http://127.0.0.1:51930
+✓ Ready in 240ms
+✓ Running next.config.js took 14ms
+- Experiments (use with caution):
+  ⨯ agentUpgrade
+
+ GET /api/probe 200 in 32ms (next.js: 22ms, application-code: 10ms)
+ GET /api/probe 200 in 2ms (next.js: 0.4ms, application-code: 1.8ms)
+ GET /api/probe 200 in 1.3ms (next.js: 0.2ms, application-code: 1.1ms)
+ GET /api/probe 200 in 2ms (next.js: 0.5ms, application-code: 1.9ms)
+ GET /api/probe 200 in 1.7ms (next.js: 0.3ms, application-code: 1.4ms)
+ GET /api/probe 200 in 11ms (next.js: 9ms, application-code: 2ms)
+ GET /api/probe 200 in 1.6ms (next.js: 0.3ms, application-code: 1.3ms)
+ GET /api/probe 200 in 3ms (next.js: 0.8ms, application-code: 1.9ms)
+ GET /api/probe 200 in 5ms (next.js: 3ms, application-code: 1.4ms)
+ GET /api/probe 200 in 2ms (next.js: 0.5ms, application-code: 1.6ms)
+ GET /api/probe 200 in 2ms (next.js: 0.2ms, application-code: 2ms)
+ GET /api/probe 200 in 6ms (next.js: 4ms, application-code: 1.5ms)
+ GET /api/probe 200 in 1.4ms (next.js: 0.2ms, application-code: 1.2ms)
+[?25h
